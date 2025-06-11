@@ -2,13 +2,13 @@ import {BrowserRouter, Routes, Route} from "react-router-dom";
 import { useState } from 'react'
 import './App.css'
 
-import Layout from './src/Layout'
-import Celular from './src/components/Productos/ProductoPorId.jsx'
-import ProductoPorMarca from './src/components/Productos/ProductoPorMarca.jsx'
-import Contacto from './src/components/Contacto'
-import Home from './src/components/Home'
-import Productos from './src/components/Productos'
-import QuienesSomos from './src/components/QuienesSomos'
+import Layout from './Layout'
+import Celular from './components/Productos/ProductoPorId.jsx'
+import ProductoPorMarca from './components/Productos/ProductoPorMarca.jsx'
+import Contacto from './components/Contacto'
+import Home from './components/Home'
+import Productos from './components/Productos'
+import QuienesSomos from './components/QuienesSomos'
 
 function App() {
   return (
