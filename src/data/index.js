@@ -15,9 +15,9 @@ export const celulares = [
     precio: 1299,
     marcaId: 1,
     fotos: [
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpwxR2plMrWrCqlMvoWvSZpeyp-XRETYC9Vw&s',
-      'https://example.com/iphone14pro-2.jpg',
-      'https://example.com/iphone14pro-3.jpg'
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3XoD6b8H2UHRljoo78y8J29_tcLATtbwu4A&s',
+      'https://tienda.personal.com.ar/images/i_Phone_14_Pro_Silver_ae80bf739a.png',
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiXzhbJ2-4gxJZxlD6ljNd9tlWFoI-Z8PVgQ&s'
     ]
   },
   {
@@ -27,9 +27,9 @@ export const celulares = [
     precio: 999,
     marcaId: 2,
     fotos: [
-      'https://example.com/galaxys23-1.jpg',
-      'https://example.com/galaxys23-2.jpg',
-      'https://example.com/galaxys23-3.jpg'
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRePIvhMWyO4Id0dAfSVPuPpl_HasEcSjnNGw&s',
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkslW6-MDOkgKMHxwaZG7nYWRv406SGWmFwQ&s',
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSz_NLEbHgY4OjLJCV463SGJ8tnKd3YwrwbRQ&s'
     ]
   },
   {
@@ -39,9 +39,9 @@ export const celulares = [
     precio: 899,
     marcaId: 3,
     fotos: [
-      'https://example.com/xiaomi13pro-1.jpg',
-      'https://example.com/xiaomi13pro-2.jpg',
-      'https://example.com/xiaomi13pro-3.jpg'
+      'https://images.precialo.com/products/xiaomi-redmi-note-13-pro-5g-dual-sim-256-gb-negro-estelar-8-gb-ram-1/5e149ac4-45ca-4872-bd51-745f32d42b4d.jpeg',
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-o1g1uPvycdZdlSuqhuC_atB6nZhUdg8f7g&s',
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSeKtPOt-bkBkDK-vzCAZBJD6-R2HzKjF78w&s'
     ]
   },
   {
@@ -51,9 +51,9 @@ export const celulares = [
     precio: 699,
     marcaId: 4,
     fotos: [
-      'https://example.com/edge40-1.jpg',
-      'https://example.com/edge40-2.jpg',
-      'https://example.com/edge40-3.jpg'
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPQKNaMBTCYWGBFzxuTnNugWDTV68dyOYNFw&s',
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVlEsduaaoYEVUu95nD2uefTl_V_uhJTLK8g&s',
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCq0gi1mLszJKxhgDgrlyeDRC2TCUFzpSjUQ&s'
     ]
   },
   {

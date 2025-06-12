@@ -1,0 +1,90 @@
+.detalle-container {
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+    background-color: #fafafa;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+  }
+  
+  .volver-btn {
+    background: none;
+    border: none;
+    color: #2980b9;
+    font-size: 1.1em;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  .detalle-card {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .detalle-imagenes {
+    flex: 1 1 350px;
+  }
+  
+  .detalle-imagen-principal {
+    width: 100%;
+    max-width: 350px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .detalle-miniaturas {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .miniatura {
+    width: 60px;
+    height: 60px;
+    border-radius: 6px;
+    object-fit: cover;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: border-color 0.3s ease;
+  }
+  
+  .miniatura.activa {
+    border-color: #2980b9;
+  }
+  
+  .detalle-info {
+    flex: 1 1 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .detalle-descripcion {
+    margin: 20px 0;
+    font-size: 1em;
+    color: #444;
+  }
+  
+  .detalle-precio {
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #2c3e50;
+  }
+  
+  .comprar-btn {
+    padding: 12px 0;
+    background-color: #27ae60;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .comprar-btn:hover {
+    background-color: #1e8449;
+  }
