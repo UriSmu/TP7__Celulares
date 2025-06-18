@@ -27,7 +27,7 @@ const QuienesSomos = () => {
 
           <h2>Locales 🏪</h2>
           <ul>
-            <li><strong>Av. Siempreviva 123, Springfield</strong></li>
+            <li><strong>Av. Rivadavia 5335, Capital</strong></li>
             <li><strong>Maipú 456, Capital</strong></li>
             <li><strong>Ruta 7 km 123, Provincia</strong></li>
             <li><strong>Yatay 240, Capital</strong></li>

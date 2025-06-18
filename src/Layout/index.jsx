@@ -49,7 +49,7 @@ const Layout = () => {
         <section>
           <h4>Locales</h4>
           <ul>
-            <li>📍 Av. Siempreviva 123, Springfield</li>
+            <li>📍 Av. Rivadavia 5335, Capital</li>
             <li>📍 Maipú 456, Capital</li>
             <li>📍 Ruta 7 km 123, Provincia</li>
             <li>📍 Yatay 240, Capital</li>
