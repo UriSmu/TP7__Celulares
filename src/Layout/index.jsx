@@ -19,13 +19,15 @@ const Layout = () => {
       <header className="main-header">
         <nav className="navbar">
           <Link to="/">Home</Link>
-          <Link to="/productos">Productos</Link>
-          <select onChange={handleMarcaChange} defaultValue="">
-            <option value="">Marcas</option>
-            {marcas.map(m => (
-              <option key={m.id} value={m.id}>{m.nombre}</option>
-            ))}
-          </select>
+          <div className="dropdown">
+            <button className="dropbtn">Productos</button>
+            <div className="dropdown-content">
+              <Link to="/productos">Todos</Link>
+              {marcas.map(m => (
+                <Link key={m.id} to={`/productos/marca/${m.id}`}>{m.nombre}</Link>
+              ))}
+            </div>
+          </div>
           <Link to="/quienes-somos">Quienes Somos</Link>
           <Link to="/contacto">Contacto</Link>
         </nav>
@@ -48,9 +50,10 @@ const Layout = () => {
           <h4>Locales</h4>
           <ul>
             <li>📍 Av. Siempreviva 123, Springfield</li>
-            <li>📍 Calle Falsa 456, Capital</li>
+            <li>📍 Maipú 456, Capital</li>
             <li>📍 Ruta 7 km 123, Provincia</li>
-            <li>📍 Yatay 240, Provincia</li>
+            <li>📍 Yatay 240, Capital</li>
+            <li>📍 Calle 47 456, La Plata</li>
           </ul>
         </section>
 

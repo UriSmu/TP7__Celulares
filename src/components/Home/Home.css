@@ -1,0 +1,24 @@
+.productos-destacados {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+  
+  .producto-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    width: 250px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-align: center;
+  }
+
+  .home-titulo {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 1.8rem;
+    color: #333;
+  }

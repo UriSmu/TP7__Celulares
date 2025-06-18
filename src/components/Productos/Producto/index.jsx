@@ -9,11 +9,13 @@ const Producto = ({ id, nombre, descripcion, precio, fotos = [], marca }) => {
 
   return (
     <div className="producto-card">
-      <img
-        src={imagenPrincipal}
-        alt={nombre || "Producto"}
-        className="producto-imagen"
-      />
+      <div className="producto-imagen-contenedor">
+        <img
+          src={imagenPrincipal}
+          alt={nombre || "Producto"}
+          className="producto-imagen"
+        />
+      </div>
 
       <div className="producto-detalles">
         <div className="producto-texto">
