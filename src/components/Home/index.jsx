@@ -27,6 +27,7 @@ const Home = () => {
     <div>
       <Carousel images={images} />
       <h2 className="home-titulo">¡Bienvenido a CeluLand! Todas las tiendas, en un mismo lugar.</h2>
+      <h4 className="home-subtitulo">Algunos de nuestros productos</h4>
       <div className="productos-destacados">
         {celularesAleatorios.map(producto => (
           <Producto key={producto.id} {...producto} />

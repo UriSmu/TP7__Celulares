@@ -171,3 +171,21 @@
   .dropdown:hover .dropdown-content {
     display: flex;
   }
+
+  /* Para que la imagen del logo en el nav quede a la izquierda */
+  .navbar {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    justify-content: center; /* Cambiado para centrar */
+  }
+  
+  .navbar > a:first-child {
+    margin-right: 0; /* Quitar el auto para no empujar nada */
+  }
+
+/* Tamaño y cursor para el logo en el nav */
+.navbar .logo {
+  height: 40px;
+  cursor: pointer;
+}
