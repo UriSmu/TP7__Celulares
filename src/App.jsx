@@ -1,4 +1,4 @@
-import {BrowserRouter, Routes, Route} from "react-router-dom";
+import {BrowserRouter, Routes, Route, HashRouter} from "react-router-dom";
 import { useState } from 'react'
 import './App.css'
 
@@ -12,7 +12,7 @@ import QuienesSomos from './components/QuienesSomos'
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<Layout/>}>
           <Route index element={<Home/>}/>
@@ -24,7 +24,7 @@ function App() {
           <Route path="*" element={<><h1>404</h1><h3>Error! La página a la que busca acceder no existe</h3></>}/>
         </Route>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 

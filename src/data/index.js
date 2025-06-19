@@ -291,9 +291,9 @@ export const celulares = [
     precio: 479,
     marcaId: 3,
     fotos: [
-      'https://example.com/pocof5-1.jpg',
-      'https://example.com/pocof5-2.jpg',
-      'https://example.com/pocof5-3.jpg'
+      'https://bioscomputacion.com.ar/img/Public/1161/producto-d-nq-np-864215-mla69391501813-05-4169.jpg',
+      'https://i02.appmifile.com/mi-com-product/fly-birds/poco-f5/m/e2ea37326acc0c8cbd15eb0c94e2345f.png',
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlIIVv1-4XOfjkDr_5xtYBm6Yzrm8bJXfj7g&s'
     ]
   },
   {
@@ -303,9 +303,9 @@ export const celulares = [
     precio: 199,
     marcaId: 4,
     fotos: [
-      'https://bioscomputacion.com.ar/img/Public/1161/producto-d-nq-np-864215-mla69391501813-05-4169.jpg',
-      'https://i02.appmifile.com/mi-com-product/fly-birds/poco-f5/m/e2ea37326acc0c8cbd15eb0c94e2345f.png',
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlIIVv1-4XOfjkDr_5xtYBm6Yzrm8bJXfj7g&s'
+      'https://m.media-amazon.com/images/I/613N3u7GvpL.jpg',
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJiW2mDYq3fehFq08KGyKuaKuy8Nkp3VlNMg&s',
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXPmS8C6fYM59iORlG8Qrxa2n_Y2wqVVEjXg&s'
     ]
   },
   {
